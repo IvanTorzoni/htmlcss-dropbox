@@ -290,11 +290,23 @@ nav{
 }
 /* /designit section */
 
+/* free trial section */
 .free-trial{
     /* debug */
     height: 250px;
     background-color: lightblue;
 }
+
+.free-trial-left-side{
+    height: 100%;
+    width: 70%;
+}
+
+.free-trial-right-side{
+    height: 100%;
+    width: 30%;
+}
+/* /free trial section */
 
 .general-questions{
     /* debug */
