@@ -132,13 +132,14 @@ nav{
     display: inline-block;
     text-decoration: none;
 }
+/* /Hero section */
+
 
 .business-plans{
     /* debug */
     height: 700px;
     background-color: cyan;
 }
-
 
 
 /* enterprise section */
@@ -168,6 +169,8 @@ nav{
 .enterprise-right{
     width: 30%;
 }
+/* /enterprise section */
+
 
 /* dropbox partner section */
 .dropbox-partners{
@@ -188,8 +191,8 @@ nav{
 .dropbox-partners-right-side{
     width: 40%;
 }
+/* /dropbox partner section */
 
-.dropbox-partners-right-side a
 
 
 .dropbox-business{
@@ -198,11 +201,17 @@ nav{
     background-color: green;
 }
 
+/* Business clients section */
 .dropbox-business-clients{
     /* debug */
     height: 250px;
     background-color: brown;
 }
+
+.dropbox-client-left-side{
+    width: 60%;
+}
+/* /Business clients section */
 
 .designit{
     /* debug */
