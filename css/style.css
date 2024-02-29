@@ -43,7 +43,6 @@ ul li{
     width: 100%;
 }
 
-
 /* HEADER */
 header{
     height: 70px;
@@ -67,9 +66,25 @@ header{
     width: 70%;
 }
 
-
-
 /* MAIN */
+
+/* container large */
+.container-large{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    height: 90%;
+    background-color: rgb(41, 30, 30);
+}
+
+/* container small */
+.container-small{
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    height: 90%;
+    background-color: rgb(73, 46, 46);
+}
 
 .hero{
     /* debug */
