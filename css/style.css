@@ -113,19 +113,14 @@ nav{
     font-weight: bolder;
 }
 
+/* hero content */
 .hero-content{
     height: 60%;
 }
 
 /* hero sides proportion */
-
 .hero-left{
     width: 30%;
-}
-
-.hero-left a{
-    display: inline-block;
-    text-decoration: none;
 }
 
 .hero-right{
@@ -133,8 +128,10 @@ nav{
     padding: 20px;
 }
 
-
-
+.hero-left a{
+    display: inline-block;
+    text-decoration: none;
+}
 
 .business-plans{
     /* debug */
@@ -142,10 +139,38 @@ nav{
     background-color: cyan;
 }
 
+
+
+/* enterprise section */
 .enterprise{
     /* debug */
     height: 250px;
     background-color: blue;
+}
+
+/* enterprise title */
+.enterprise-top{
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+}
+
+/* enterprise content */
+.enterprise-content{
+    height: 80%;
+}
+
+/* hero sides proportion */
+.enterprise-left{
+    width: 70%;
+}
+
+.enterprise-right{
+    width: 30%;
+}
+
+.enterprise-right a{
+    text-decoration: none;
 }
 
 .dropbox-partners{
