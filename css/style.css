@@ -180,7 +180,7 @@ nav{
 }
 
 .dropbox-partners-left-side{
-    width: 60%;
+    width: 50%;
 }
 
 .dropbox-partners-left-side img{
@@ -189,7 +189,7 @@ nav{
 }
 
 .dropbox-partners-right-side{
-    width: 40%;
+    width: 60%;
 }
 /* /dropbox partner section */
 
@@ -200,6 +200,7 @@ nav{
     height: 800px;
     background-color: green;
 }
+
 
 /* Business clients section */
 .dropbox-business-clients{
@@ -213,11 +214,81 @@ nav{
 }
 /* /Business clients section */
 
+/* designit section */
 .designit{
     /* debug */
     height: 500px;
     background-color: magenta;
 }
+
+/* centre part */
+.designit-center{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+/* left and right designit properties part */
+.designit-left-side, .designit-right-side{
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+}
+
+.designit-left-side, .designit-right-side{
+    flex-wrap: wrap;
+    width: calc(100% / 4);
+}
+
+/* partners */
+.partner1{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(162, 211, 155, 1);
+}
+
+.partner2{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(97, 8, 43, 1);
+}
+
+.partner3{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 147, 206, 1);
+}
+
+.partner4{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 28, 28, 1);
+}
+
+.partner5{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(213, 0, 31, 1);
+}
+
+.partner6{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.partner7{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(13, 36, 129, 1);
+}
+
+.partner8{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 216, 48, 1);
+}
+/* /designit section */
 
 .free-trial{
     /* debug */
