@@ -33,7 +33,7 @@ ul{
     list-style: none;
 }
 
-ul a{
+* a{
     text-decoration: none;
 }
 
@@ -169,15 +169,28 @@ nav{
     width: 30%;
 }
 
-.enterprise-right a{
-    text-decoration: none;
-}
-
+/* dropbox partner section */
 .dropbox-partners{
     /* debug */
     height: 450px;
     background-color: violet;
 }
+
+.dropbox-partners-left-side{
+    width: 60%;
+}
+
+.dropbox-partners-left-side img{
+    height: 100%;
+    width: 100%;
+}
+
+.dropbox-partners-right-side{
+    width: 40%;
+}
+
+.dropbox-partners-right-side a
+
 
 .dropbox-business{
     /* debug */
