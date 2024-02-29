@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* UTILITIES */
 
 .flex{
@@ -37,40 +41,21 @@ ul li{
     display: inline;
 }
 
-.width-100x100{
-    width: 100%;
-}
-
-.width-30x100{
-    width: 30%;
-}
-
-.width-70x100{
-    width: 70%;
-}
-
-.heigth-15x100{
-    height: 15%;
-}
-
-.heigth-85x100{
-    height: 85%;
-}
-
 .column{
     flex-direction: column;
 }
 
-.row{
-    flex-direction: row;
+.padding-10px{
+    padding: 10px;
 }
+
 /* HEADER */
 header{
     height: 70px;
     background-color: orange;
 }
 
-/* header left and right part */
+/* header left and right partition */
 .header-left, .header-right{
     width: 30%;
     /* debug */
@@ -78,6 +63,7 @@ header{
     height: 100%;
 }
 
+/* logo space in left section */
 .header-left img{
     width: 30%;
     padding: 10px;
@@ -85,6 +71,10 @@ header{
 
 .header-left nav{
     width: 70%;
+}
+
+nav{
+    width: 100%;
 }
 
 /* MAIN */
@@ -107,11 +97,44 @@ header{
     background-color: rgb(73, 46, 46);
 }
 
+
+/* Hero section */
 .hero{
     /* debug */
     height: 550px;
     background-color: yellow;
 }
+/* Hero title */
+.hero-title{
+    height: 40%;
+    width: 100%;
+    padding: 20px 0; 
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero-content{
+    height: 60%;
+}
+
+/* hero sides proportion */
+
+.hero-left{
+    width: 30%;
+}
+
+.hero-left a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hero-right{
+    width: 70%;
+    padding: 20px;
+}
+
+
+
 
 .business-plans{
     /* debug */
