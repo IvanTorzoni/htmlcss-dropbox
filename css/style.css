@@ -1,5 +1,83 @@
+/* RESET */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+.flex{
+    display: flex;
+}
+
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: orange;
+}
+
+/* MAIN */
+
+.hero{
+    /* debug */
+    height: 550px;
+    background-color: yellow;
+}
+
+.business-plans{
+    /* debug */
+    height: 700px;
+    background-color: cyan;
+}
+
+.enterprise{
+    /* debug */
+    height: 250px;
+    background-color: blue;
+}
+
+.dropbox-partners{
+    /* debug */
+    height: 450px;
+    background-color: violet;
+}
+
+.dropbox-business{
+    /* debug */
+    height: 800px;
+    background-color: green;
+}
+
+.dropbox-business-clients{
+    /* debug */
+    height: 250px;
+    background-color: brown;
+}
+
+.designit{
+    /* debug */
+    height: 500px;
+    background-color: magenta;
+}
+
+.free-trial{
+    /* debug */
+    height: 250px;
+    background-color: lightblue;
+}
+
+.general-questions{
+    /* debug */
+    height: 500px;
+    background-color: lightcoral;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 350px;
 }
