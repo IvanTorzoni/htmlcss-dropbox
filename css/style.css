@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* UTILITIES */
@@ -12,12 +13,61 @@
     display: flex;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+
+
+.align-item{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline;
+}
+
+.width-100x100{
+    width: 100%;
+}
+
 
 /* HEADER */
 header{
     height: 70px;
     background-color: orange;
 }
+
+/* header left and right part */
+.header-left, .header-right{
+    width: 30%;
+    /* debug */
+    background-color: aqua;
+    height: 100%;
+}
+
+.header-left img{
+    width: 30%;
+    padding: 10px;
+}
+
+.header-left nav{
+    width: 70%;
+}
+
+
 
 /* MAIN */
 
