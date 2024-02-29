@@ -21,8 +21,6 @@
     justify-content: space-around;
 }
 
-
-
 .align-item{
     align-items: center;
 }
@@ -43,6 +41,29 @@ ul li{
     width: 100%;
 }
 
+.width-30x100{
+    width: 30%;
+}
+
+.width-70x100{
+    width: 70%;
+}
+
+.heigth-15x100{
+    height: 15%;
+}
+
+.heigth-85x100{
+    height: 85%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
 /* HEADER */
 header{
     height: 70px;
