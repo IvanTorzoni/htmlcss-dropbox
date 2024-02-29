@@ -25,6 +25,10 @@ img{
     justify-content: space-around;
 }
 
+.space-evenly{
+    justify-content: space-evenly;
+}
+
 .align-item{
     align-items: center;
 }
@@ -320,3 +324,4 @@ footer{
     background-color: black;
     height: 350px;
 }
+
