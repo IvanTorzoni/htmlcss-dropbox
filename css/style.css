@@ -53,6 +53,16 @@ ul li{
     padding: 10px;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 30%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
 /* HEADER */
 header{
     height: 70px;
@@ -145,15 +155,13 @@ nav{
     background-color: cyan;
 }
 
-.business-content{
+.business-plans-content{
     width: 100%;
     height: 90%;
 }
 
-.col{
-    width: 30%;
-    background-color: yellow;
-}
+/* /business plans section */
+
 
 /* enterprise section */
 .enterprise{
@@ -174,7 +182,7 @@ nav{
     height: 80%;
 }
 
-/* hero sides proportion */
+/* enterpise sides proportion */
 .enterprise-left{
     width: 70%;
 }
@@ -207,13 +215,18 @@ nav{
 /* /dropbox partner section */
 
 
-
+/* dropbox business section */
 .dropbox-business{
     /* debug */
     height: 800px;
     background-color: green;
 }
 
+.dropbox-business-content{
+    width: 100%;
+}
+
+/* dropbox business section */
 
 /* Business clients section */
 .dropbox-business-clients{
