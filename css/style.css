@@ -69,6 +69,10 @@ ul li{
     padding-left: 50px;
 }
 
+.padding-bot30px{
+    padding-bottom: 30px;
+}
+
 .padding-bot50px{
     padding-bottom: 50px;
 }
@@ -279,7 +283,7 @@ nav{
 /* dropbox business section */
 .dropbox-business{
     /* debug */
-    height: 800px;
+    height: 1000px;
     background-color: green;
 }
 
