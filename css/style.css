@@ -53,11 +53,9 @@ ul li{
     padding: 10px;
 }
 
-
 .padding-top30px{
     padding-top: 30px;
 }
-
 
 .padding-top50px{
     padding-top: 50px;
@@ -69,6 +67,10 @@ ul li{
 
 .padding-left50px{
     padding-left: 50px;
+}
+
+.padding-bot50px{
+    padding-bottom: 50px;
 }
 
 .padding-bot100px{
@@ -198,6 +200,7 @@ nav{
 
 .arrow{
     font-size: 50px;
+    padding-top: 150px;
 }
 /* /Hero section */
 
@@ -244,7 +247,7 @@ nav{
 
 .enterprise-right{
     width: 30%;
-    height: 20%;
+    height: 40%;
     justify-content: end;
     padding-right: 50px;
 }
