@@ -65,16 +65,17 @@ ul li{
 
 /* HEADER */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 70px;
-    background-color: orange;
+    width: 100%;
+    z-index: 9999;
 }
 
 /* header left and right partition */
 .header-left, .header-right{
     width: 30%;
-    /* debug */
-    background-color: aqua;
-    height: 100%;
 }
 
 /* logo space in left section */
@@ -89,6 +90,12 @@ header{
 
 nav{
     width: 100%;
+}
+
+.start{
+    background-color: rgba(0, 97, 255, 1);
+    padding: 10px;
+    color: white;
 }
 
 /* MAIN */
@@ -114,6 +121,7 @@ nav{
 
 /* Hero section */
 .hero{
+    padding-top: 80px;
     /* debug */
     height: 550px;
     background-color: yellow;
