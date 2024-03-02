@@ -53,12 +53,25 @@ ul li{
     padding: 10px;
 }
 
+.padding-top100px{
+    padding-top: 100px;
+}
+
+.padding-bot100px{
+    padding-bottom: 100px;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
 
+.gap{
+    gap: 10px;
+}
+
 .col{
     width: 30%;
+    /* debug */
     background-color: yellow;
     border: 1px solid black;
 }
@@ -66,11 +79,9 @@ ul li{
 /* HEADER */
 header{
     position: fixed;
-    top: 0;
-    left: 0;
     height: 70px;
     width: 100%;
-    z-index: 9999;
+    background-color: white;
 }
 
 /* header left and right partition */
@@ -80,7 +91,6 @@ header{
 
 /* logo space in left section */
 .header-left img{
-    width: 30%;
     padding: 10px;
 }
 
@@ -92,7 +102,8 @@ nav{
     width: 100%;
 }
 
-.start{
+/* start property */
+.btn{
     background-color: rgba(0, 97, 255, 1);
     padding: 10px;
     color: white;
@@ -104,6 +115,7 @@ nav{
 .container-large{
     width: 80%;
     margin: 0 auto;
+    max-width: 1500px;
     /* debug */
     height: 90%;
     background-color: rgb(41, 30, 30);
@@ -113,6 +125,7 @@ nav{
 .container-small{
     width: 70%;
     margin: 0 auto;
+    max-width: 1350px;
     /* debug */
     height: 90%;
     background-color: rgb(73, 46, 46);
@@ -122,23 +135,15 @@ nav{
 /* Hero section */
 .hero{
     padding-top: 80px;
-    /* debug */
-    height: 550px;
-    background-color: yellow;
+    background-color: rgba(180, 208, 231, 1);
 }
 /* Hero title */
 .hero-title{
-    height: 40%;
-    width: 100%;
-    padding: 20px 0; 
-    font-size: 50px;
+    padding: 50px 0; 
+    font-size: 80px;
     font-weight: bolder;
 }
 
-/* hero content */
-.hero-content{
-    height: 60%;
-}
 
 /* hero sides proportion */
 .hero-left{
@@ -147,12 +152,18 @@ nav{
 
 .hero-right{
     width: 70%;
-    padding: 20px;
+    transform: translateY(15%);
 }
 
 .hero-left a{
     display: inline-block;
     text-decoration: none;
+    width: 60%;
+    text-align: center;
+}
+
+.arrow{
+    font-size: 50px;
 }
 /* /Hero section */
 
