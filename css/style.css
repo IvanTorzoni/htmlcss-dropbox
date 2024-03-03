@@ -57,6 +57,10 @@ ul li{
     padding: 10px;
 }
 
+.padding-30px{
+    padding: 30px;
+}
+
 .padding-top30px{
     padding-top: 30px;
 }
@@ -86,6 +90,10 @@ ul li{
     padding-bottom: 100px;
 }
 
+.padding-left30px{
+    padding-left: 30px;
+}
+
 .padding-left50px{
     padding-left: 50px;
 }
@@ -104,6 +112,10 @@ ul li{
 
 .heigth-80x100{
     height: 80%;
+}
+
+.width-60x100{
+    width: 60%;
 }
 
 .gap{
@@ -217,7 +229,7 @@ nav{
 
 .arrow{
     font-size: 50px;
-    padding-top: 150px;
+    padding-top: 80px;
 }
 /* /Hero section */
 
@@ -425,3 +437,15 @@ footer{
     height: 350px;
 }
 
+.footer ul>li:nth-child(1){
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer ul>li:not(:first-child){
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: white;
+}
