@@ -29,6 +29,10 @@ img{
     justify-content: space-evenly;
 }
 
+.justify-end{
+    justify-content: end;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -162,7 +166,7 @@ ul li{
 }
 
 .gap{
-    gap: 10px;
+    gap: 30px;
 }
 
 .color-black{
@@ -179,6 +183,10 @@ ul li{
 
 .col{
     width: 30%;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* HEADER */
@@ -221,14 +229,12 @@ nav{
 
 /* container large */
 .container-large{
-    width: 80%;
     margin: 0 auto;
     max-width: 1500px;
 }
 
 /* container small */
 .container-small{
-    width: 70%;
     margin: 0 auto;
     max-width: 1350px;
 }
