@@ -176,9 +176,6 @@ ul li{
 
 .col{
     width: 30%;
-    /* debug */
-    background-color: yellow;
-    border: 1px solid black;
 }
 
 /* HEADER */
@@ -224,9 +221,6 @@ nav{
     width: 80%;
     margin: 0 auto;
     max-width: 1500px;
-    /* debug */
-    height: 90%;
-    background-color: rgb(41, 30, 30);
 }
 
 /* container small */
@@ -234,9 +228,6 @@ nav{
     width: 70%;
     margin: 0 auto;
     max-width: 1350px;
-    /* debug */
-    height: 90%;
-    background-color: rgb(73, 46, 46);
 }
 
 
@@ -278,11 +269,6 @@ nav{
 /* /Hero section */
 
 /* business plans section */
-.business-plans{
-    /* debug */
-    height: 1000px;
-    background-color: cyan;
-}
 
 .business-plans-content{
     width: 100%;
@@ -294,14 +280,6 @@ nav{
 }
 
 /* /business plans section */
-
-
-/* enterprise section */
-.enterprise{
-    /* debug */
-    height: 250px;
-    background-color: blue;
-}
 
 /* enterprise title */
 .enterprise-top{
@@ -332,11 +310,6 @@ nav{
 
 
 /* dropbox partner section */
-.dropbox-partners{
-    /* debug */
-    height: 450px;
-    background-color: violet;
-}
 
 .dropbox-partners-left-side{
     width: 50%;
@@ -352,14 +325,6 @@ nav{
 }
 /* /dropbox partner section */
 
-
-/* dropbox business section */
-.dropbox-business{
-    /* debug */
-    height: 1000px;
-    background-color: green;
-}
-
 .dropbox-business-content{
     width: 100%;
 }
@@ -367,23 +332,11 @@ nav{
 /* dropbox business section */
 
 /* Business clients section */
-.dropbox-business-clients{
-    /* debug */
-    height: 250px;
-    background-color: brown;
-}
 
 .dropbox-client-left-side{
     width: 60%;
 }
 /* /Business clients section */
-
-/* designit section */
-.designit{
-    /* debug */
-    height: 500px;
-    background-color: magenta;
-}
 
 /* centre part */
 .designit-center{
@@ -398,7 +351,6 @@ nav{
 /* left and right designit properties part */
 .designit-left-side, .designit-right-side{
     width: 25%;
-    background-color: blue;
 }
 
 .designit-left-side, .designit-right-side{
@@ -455,10 +407,9 @@ nav{
 /* /designit section */
 
 /* free trial section */
+
 .free-trial{
-    /* debug */
-    height: 250px;
-    background-color: lightblue;
+    background-color: rgba(180, 208, 231, 1);
 }
 
 .free-trial-left-side{
@@ -472,17 +423,11 @@ nav{
 }
 /* /free trial section */
 
-.general-questions{
-    /* debug */
-    height: 500px;
-    background-color: lightcoral;
-}
-
 /* FOOTER */
 
 footer{
     background-color: black;
-    height: 350px;
+    height: 400px;
 }
 
 .footer ul>li:nth-child(1){
